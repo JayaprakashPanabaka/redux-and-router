@@ -1,0 +1,58 @@
+.body-container {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-image {
+    height: 300px;
+    width: 300px;
+}
+
+.title {
+    color: #551e53;
+    font-size: 2.3rem;
+}
+
+/* Header.jsx styles */
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.logo-text {
+    color: #555555;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.item, Link {
+    list-style: none;
+    margin: 0 2rem;
+    color: #555555;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+
+
+
+
